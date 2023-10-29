@@ -73,7 +73,7 @@ export default function Htb() {
         <div className="container">
           <div className="head py-3 text-center text-light">
             <span className="head">
-              Buy <span className="text-halo"> KAZUKI </span> before it's too late
+              Buy <span className="text-halo"> KAZUWEEN </span> before it's too late
             </span>
           </div>
           <div className="row">

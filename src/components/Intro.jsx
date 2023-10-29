@@ -15,7 +15,7 @@ export default function Intro() {
                   </span>
                </div>
                <span className="h1">HOME OF TERROR</span> <br />
-               <span className="slogan">Best place for <span className="text-halo">HALLOWEEN</span> is on The Moon</span>
+               <span className="slogan fs-4">Ai generated 🎃 <span className="text-halo">meme coin</span></span>
                <div className="btn-wrap mt-3 container">
                   <button className="btn col-lg-6"> BUY  <img src="/asset/bat.png" alt="Bat" /> </button>
                </div>

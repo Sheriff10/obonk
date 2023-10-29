@@ -21,7 +21,7 @@ export default function Footer() {
          <div className="box text-dark fs-5">
             <div className="container d-flex flex-wrap gap-3 justify-content-between align-items-center py-5">
                <span>
-                  Powered by <span className="text-halo">$KUZUKI</span>
+                  Powered by <span className="text-halo">$KAZUWEEN</span>
                </span>
                <span>© Company, Rights Reserved</span>
                <span>

@@ -44,7 +44,7 @@ export default function About() {
               <div className={`text-wrap glass ${isGlassIntersecting ? "slide-in" : ""}`} ref={glassRef}>
                 <span className="h">
                   {" "}
-                  ABOUT <br /> K AZUK I
+                  ABOUT <br /> K AZUWEEN
                 </span>{" "}
                 <br />
                 <span>
