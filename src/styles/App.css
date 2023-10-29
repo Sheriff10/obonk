@@ -363,6 +363,7 @@ body {
    padding: 5px 10px;
    background: #000000a7;
    display: none !important;
+   max-width: 100%;
 }
 .mb.nav .menu-icon img {
    width: 30px;
