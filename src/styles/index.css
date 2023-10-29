@@ -20,3 +20,6 @@
 .text-halo {
    color: #f2731a !important;
 }
+body {
+   overflow-x: hidden;
+}

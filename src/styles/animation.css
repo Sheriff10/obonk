@@ -1,0 +1,42 @@
+.intro .wrap {
+   opacity: 0;
+   animation: intro-fadein 2s linear forwards;
+   /* transform: translate(100px, -150px); */
+}
+@keyframes intro-fadein {
+   0% {
+      opacity: 0;
+      /* transform: translate(100px, -150px); */
+   }
+   50% {
+      opacity: 0.5;
+      /* transform: translate(50px, -75px); */
+   }
+   100% {
+      opacity: 1;
+      /* transform: translate(0px, 0px); */
+   }
+}
+
+/* ABout */
+.about .glass {
+   /* transform: translateX(-100%); */
+   opacity: 0;
+   transition: 1.5s ease;
+}
+.card-con .card, .buy .box {
+   opacity: 0;
+   transition: 1.5s ease;
+   transform: translateY(-100px);
+}
+.about .img-wrap {
+   transform: translateX(100%);
+   opacity: 0;
+   transition: 1.5s ease;
+}
+.about .glass.slide-in,
+.about .img-wrap.slide-in,
+.card-con .card.slide-in, .buy .box.slide-in {
+   transform: translateX(0%);
+   opacity: 1;
+}

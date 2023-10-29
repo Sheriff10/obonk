@@ -2,16 +2,16 @@ import React from "react";
 
 export default function Roadmap() {
    return (
-      <div className="roadmap" id="roadmap">
-         <div className="bg-wrap">
-            <div className="container">
+      <div className="roadmap py-5" id="roadmap">
+         <div className="bg-wrap py-5">
+            <div className="container py-5">
                <div className="head text-center py-3">
                   <h1>Roadmap</h1>
                </div>
                <div className="body">
-                  <div className="row">
+                  <div className="row ">
                      {/* right */}
-                     <div className="col-md-6 d-flex my-4 flex-wrap  bg-dar">
+                     <div className="col-md-6 d-flex r-box my-4 flex-wrap  bg-dar">
                         <div className="col-lg-6  d-flex px-2 align-items-center justify-content-end px-md-5">
                            <div className="text-wrap text-halo">
                               <span>PHASE ONE</span>
@@ -38,7 +38,7 @@ export default function Roadmap() {
                      </div>
 
                      {/* left */}
-                     <div className="col-md-6 d-flex l my-4 flex-wrap  bg-dar">
+                     <div className="col-md-6 d-flex l l-box my-4 flex-wrap  bg-dar">
                         <div className="col-lg-6">
                            <div className="list-wrap d-flex">
                               <ul className="list-unstyled m-0">
@@ -65,7 +65,7 @@ export default function Roadmap() {
                      </div>
 
                      {/* right */}
-                     <div className="col-md-6 d-flex my-4 flex-wrap  bg-dar">
+                     <div className="col-md-6 d-flex my-4 l-box flex-wrap  bg-dar">
                         <div className="col-lg-6 d-flex px-2 align-items-center justify-content-end px-md-5">
                            <div className="text-wrap text-halo">
                               <span>PHASE THREE</span>
@@ -93,7 +93,7 @@ export default function Roadmap() {
 
 
                     {/* left */}
-                    <div className="col-md-6 d-flex l my-4 flex-wrap  bg-dar">
+                    <div className="col-md-6 d-flex r-box l my-4 flex-wrap  bg-dar">
                         <div className="col-lg-6">
                            <div className="list-wrap d-flex">
                               <ul className="list-unstyled m-0">
