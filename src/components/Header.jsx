@@ -31,8 +31,8 @@ export default function Header() {
 
          {/* Mobile Header */}
          <div className="nav mb  justify-content-between ">
-            <div className="menu-icon">
-               <img src="/asset/NAV.png" alt="Menu" onClick={toggle} />{" "}
+            <div className="menu-icon" onClick={toggle}>
+               <img src="/asset/NAV.png" alt="Menu"  />{" "}
                <span className="text-halo">Menu</span>
             </div>
 
