@@ -15,6 +15,10 @@ body {
    right: 0;
    top: 0;
 }
+.nav.lg{
+   backdrop-filter: blur(10px);
+   z-index: 12;
+}
 .nav img {
    width: 200px;
 }
@@ -103,7 +107,7 @@ body {
       ),
       radial-gradient(
          circle at 50.416666666666664% 51.66666666666667%,
-         #131313 0,
+         #fff 0,
          100%,
          transparent 100%
       ),
@@ -147,7 +151,7 @@ body {
       ),
       radial-gradient(
          circle at 50.416666666666664% 51.66666666666667%,
-         #131313 0,
+         #fff 0,
          100%,
          transparent 100%
       ),
@@ -250,7 +254,7 @@ body {
       ),
       radial-gradient(
          circle at 50.416666666666664% 51.66666666666667%,
-         #131313 0,
+         #fff 0,
          100%,
          transparent 100%
       ),
@@ -297,7 +301,7 @@ body {
 /* Roadmap */
 .roadmap {
    background: dark;
-   background: #131313;
+   background: #fff;
 }
 .roadmap h1 {
    font-family: "casper", serif;

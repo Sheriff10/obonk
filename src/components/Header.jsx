@@ -7,7 +7,7 @@ export default function Header() {
    return (
       <>
          {/* Desktop Header */}
-         <div className="nav row ">
+         <div className="nav row lg ">
             <div className="text-wrap col-4 d-flex align-items-center justify-content-between ps-5">
                <span>
                   <a href="#">Home</a>
