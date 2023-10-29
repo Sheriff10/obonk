@@ -1,0 +1,411 @@
+body {
+   /* background: linear-gradient(30deg, #f2731a, #191919); */
+   min-height: 100vh;
+}
+
+/* Header */
+.nav {
+   /* display: flex;
+   justify-content: space-around;
+   align-items: center; */
+   padding: 15px 50px;
+   position: fixed;
+   z-index: 9;
+   left: 0;
+   right: 0;
+   top: 0;
+}
+.nav img {
+   width: 200px;
+}
+.nav span a {
+   text-decoration: none;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: bold;
+   color: #c5c5c5;
+   font-family: "rikky", serif;
+}
+@media (max-width: 1110px) {
+   .nav {
+      display: none;
+   }
+   .mb.nav{
+      display: flex !important;
+   }
+}
+
+/* Intro */
+.intro {
+   min-height: 80vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: url("/public/asset/intro-gif.gif");
+   background-size: cover;
+}
+.intro .bg-wrap {
+   background: #000000a7;
+   height: 80vh;
+   padding: 20px 0px;
+   display: flex;
+   align-items: center;
+}
+.intro .h1 {
+   font-family: "casper", sans-serif;
+   font-size: 100px;
+   color: #f2731a;
+   text-shadow: 10px 10px 10px #000;
+}
+.intro .slogan {
+   font-size: 18px;
+   font-family: "rikky", serif;
+   font-weight: bold;
+   color: #c5c5c5;
+}
+.intro .btn {
+   /* background: url("/public/asset/button.png") no-repeat;
+   background-size: cover; */
+   background: #f2731a;
+   border-radius: 0px;
+   font-family: "rikky";
+   font-size: 30px;
+   font-weight: bold;
+   box-shadow: 10px 10px 0px;
+}
+.intro .btn img {
+   width: 50px;
+}
+.intro .fs-2 {
+   background: #f2741a5a;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 50%;
+}
+@media (max-width: 620px) {
+   .intro .h1 {
+      font-size: 50px;
+   }
+   .intro .btn {
+      width: 100%;
+   }
+}
+/* About */
+.about {
+   background: #131313;
+   background: radial-gradient(
+         circle at 3.3333333333333335% 52.5%,
+         #f2731a 0,
+         13%,
+         rgba(10, 194, 143, 0) 26%
+      ),
+      radial-gradient(
+         circle at 50.416666666666664% 51.66666666666667%,
+         #131313 0,
+         100%,
+         transparent 100%
+      ),
+      radial-gradient(
+         circle at 48.9013671875% 49.521484375%,
+         #fff 0,
+         100%,
+         hsla(0, 0%, 100%, 0) 100%
+      );
+}
+.about .h {
+   font-size: 100px;
+   font-family: "casper", sans-serif;
+   color: #f2731a;
+   backdrop-filter: blur(6px);
+   background: url("/public/asset/web.png") no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+.about .glass {
+   background: #2d2d2d5c;
+   height: 100%;
+   padding: 30px 15px;
+   border-radius: 20px;
+   color: #404040;
+   font-family: "rikky", serif;
+}
+@media (max-width: 620px) {
+   .about .h {
+      font-size: 50px;
+   }
+}
+
+/* CaRD */
+.card-con {
+   background: radial-gradient(
+         circle at 100% 52.5%,
+         /* Adjusted the position to move it to the right */ #f2731a 0,
+         18%,
+         rgba(10, 194, 143, 0) 26%
+      ),
+      radial-gradient(
+         circle at 50.416666666666664% 51.66666666666667%,
+         #131313 0,
+         100%,
+         transparent 100%
+      ),
+      radial-gradient(
+         circle at 48.9013671875% 49.521484375%,
+         #000 0,
+         100%,
+         hsla(0, 0%, 100%, 0) 100%
+      );
+   min-height: 80vh;
+}
+.card-con .card {
+   background: #2d2d2d5c;
+   padding: 40px 10px;
+   border-radius: 10px;
+   text-align: center;
+}
+.card-con .row {
+   min-height: 80vh;
+}
+.card-con img {
+   width: 100px;
+}
+.card-con .h {
+   font-family: "casper", serif;
+   letter-spacing: 5px;
+   font-size: 20px;
+}
+.card-con span {
+   color: #c5c5c5;
+   font-family: "rikky", serif;
+}
+.card-con .bg-wrap {
+   background: url("/public/asset/web2.png") no-repeat;
+   background-size: contain;
+}
+.card-con .hl {
+   height: 300px;
+   position: absolute;
+}
+.card-con .hl img {
+   width: 100px;
+   position: fixed;
+   z-index: -1;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+/* How to buy */
+.buy {
+   background: url("/public/asset/Halloween5.png") no-repeat fixed;
+   background-size: cover;
+}
+.buy .bg-wrap {
+   background: #0000009e;
+   padding: 30px 0px;
+}
+.buy .head {
+   font-size: 50px;
+   font-family: "casper", serif;
+   letter-spacing: 5px;
+}
+.buy .box {
+   padding: 10px;
+   border-radius: 20px;
+   backdrop-filter: blur(10px);
+   background: linear-gradient(45deg, #f2741a79, #131313b4 100%);
+   /* display: flex;
+   flex-direction: column;
+   justify-content: space-between; */
+}
+.buy .box .img-wrap {
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.buy .box img {
+   width: 120px;
+}
+.buy .box .h {
+   font-family: "casper", sans-serif;
+   font-size: 20px;
+   color: #f2731a;
+}
+.buy .box span {
+   font-size: 16px;
+   color: #f7d38a;
+   font-family: "rikky", serif;
+}
+
+/* Gallery */
+.gallery {
+   background: radial-gradient(
+         circle at 3.3333333333333335% 52.5%,
+         #f2731a 0,
+         13%,
+         rgba(10, 194, 143, 0) 26%
+      ),
+      radial-gradient(
+         circle at 50.416666666666664% 51.66666666666667%,
+         #131313 0,
+         100%,
+         transparent 100%
+      ),
+      radial-gradient(
+         circle at 48.9013671875% 49.521484375%,
+         #fff 0,
+         100%,
+         hsla(0, 0%, 100%, 0) 100%
+      );
+}
+.gallery img {
+   width: 400px;
+   border-radius: 20px;
+}
+
+/* Footer  */
+.footer {
+   background: #131313;
+   position: relative;
+   color: #c5c5c5;
+}
+.footer .bg-wrap {
+   background: url("/public/asset/Halloween3\ \(1\).png") no-repeat;
+   background-size: cover;
+   background-position: center center;
+   min-height: 50vh;
+}
+.footer .box {
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: #2f2f2f3f;
+   font-family: "rikky", serif;
+}
+.footer .box .text-halo {
+   font-size: 20px;
+   font-family: "casper", serif;
+   letter-spacing: 10px;
+}
+.footer .disclaimer {
+   font-family: "tha";
+   font-size: 18px;
+}
+/* Roadmap */
+.roadmap {
+   background: dark;
+   background: #131313;
+}
+.roadmap h1 {
+   font-family: "casper", serif;
+   font-size: 100px;
+   color: #f2731a;
+   text-shadow: 10px 10px 10px #000;
+}
+.roadmap .text-wrap {
+   font-size: 30px;
+   font-family: "casper", serif;
+}
+.roadmap .list-wrap {
+   line-height: 30px;
+   font-weight: bold;
+   font-family: "rikky", serif;
+   background: #4444447a;
+   padding: 20px;
+   border-radius: 0px 20px 20px 0px;
+   color: #f7d38a;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+}
+.roadmap .l .list-wrap {
+   border-radius: 20px 0px 0px 20px;
+}
+.roadmap ul img {
+   width: 30px;
+}
+.roadmap .bg-wrap {
+   background: url("/public/asset/web2.png") no-repeat;
+   background-size: contain;
+}
+@media (max-width: 620px) {
+   .roadmap h1 {
+      font-size: 50px;
+   }
+   .roadmap .l {
+      flex-direction: column-reverse;
+   }
+   .roadmap .text-wrap {
+      font-size: 20px;
+   }
+   .roadmap .lt {
+      display: flex;
+      justify-content: end;
+   }
+}
+
+/* Mobile Mene */
+.mb.nav {
+   align-items: center;
+   padding: 5px 10px;
+   background: #000000a7;
+   display: none !important;
+}
+.mb.nav .menu-icon img {
+   width: 30px;
+}
+.mb.nav .menu-icon {
+   font-family: "casper", serif;
+   letter-spacing: 5px;
+}
+.mb.nav .logo-con img {
+   width: 200px;
+}
+.mb.nav .menu-con {
+   position: fixed;
+   z-index: 10;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: #000000cc;
+   backdrop-filter: blur(10px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: translateX(-150%);
+   transition: 0.5s ease;
+}
+.mb.nav .menu-con.open {
+   transform: translateX(0%);
+   transition: 0.5s ease;
+}
+.mb.nav .menu-con ul {
+   list-style-type: none;
+   text-align: center;
+   line-height: 50px;
+   margin: 0;
+   padding: 0;
+}
+.mb.nav .menu-con ul a {
+   color: #f2731a;
+   font-size: 40px;
+   text-decoration: none;
+   font-family: "casper", serif;
+}
+.mb.nav .menu-con .wrap {
+   background: url("/public/asset/web2.png") no-repeat;
+   background-size: contain;
+   width: 80%;
+}
+.mb.nav .menu-con .wrap .sm-logo {
+   width: 150px;
+}
+@media (max-width: 1110px) {
+   .mb.nav{
+      display: flex !important;
+   }
+}

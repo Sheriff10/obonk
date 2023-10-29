@@ -1,0 +1,22 @@
+@font-face {
+   font-family: "casper";
+   src: url("/public/asset/Casper.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "rikky";
+   src: url("/public/asset/RIKY2vamp.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "tha";
+   src: url("/public/asset/ThaleahFat.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+.text-halo {
+   color: #f2731a !important;
+}
