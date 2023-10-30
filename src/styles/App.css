@@ -310,6 +310,9 @@ body {
    font-family: "tha";
    font-size: 18px;
 }
+.footer .tt {
+   font-family: 'rikky', serif !important;
+}
 /* Roadmap */
 .roadmap {
    background: dark;

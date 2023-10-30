@@ -26,7 +26,7 @@ export default function Footer() {
                <span> Company Rights Reserved</span>
                <span>
                ©
-                  <span className="text-halo">2023</span>
+                  <span className="text-halo tt"> 2023</span>
                </span>
             </div>
          </div>
