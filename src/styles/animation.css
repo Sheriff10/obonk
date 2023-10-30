@@ -24,15 +24,10 @@
    opacity: 0;
    transition: 1.5s ease;
 }
-.card-con .card, .buy .box {
+.card-con .card, .buy .box, .about .img-wrap {
    opacity: 0;
    transition: 1.5s ease;
    transform: translateY(-100px);
-}
-.about .img-wrap {
-   transform: translateX(100%);
-   opacity: 0;
-   transition: 1.5s ease;
 }
 .about .glass.slide-in,
 .about .img-wrap.slide-in,

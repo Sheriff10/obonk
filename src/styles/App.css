@@ -131,7 +131,7 @@ body {
       );
 }
 .about .h {
-   font-size: 100px;
+   font-size: 75px;
    font-family: "casper", sans-serif;
    color: #f2731a;
    backdrop-filter: blur(6px);

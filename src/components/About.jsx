@@ -10,7 +10,6 @@ export default function About() {
       const glassObserver = new IntersectionObserver(
          ([entry]) => {
             setIsGlassIntersecting(entry.isIntersecting); // Trigger when 30% of the element is visible
-            console.log(entry.isIntersecting);
          },
          { threshold: 0.3 }
       );
