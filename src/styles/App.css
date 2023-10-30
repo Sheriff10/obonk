@@ -33,7 +33,7 @@ body {
 }
 .nav.lg span a:hover {
    transform: scaleX(1.5);
-   color: #000;
+   color: red;
    text-shadow: 5px 5px 5px #f2741a91;
 }
 @media (max-width: 1110px) {
