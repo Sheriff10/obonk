@@ -27,8 +27,14 @@ body {
    font-size: 20px;
    text-transform: uppercase;
    font-weight: bold;
-   color: #c5c5c5;
+   color: #f2731a;
    font-family: "rikky", serif;
+   transition: .5s ease;
+}
+.nav.lg span a:hover {
+   transform: scaleX(1.5);
+   color: #000;
+   text-shadow: 5px 5px 5px #f2741a91;
 }
 @media (max-width: 1110px) {
    .nav {

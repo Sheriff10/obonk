@@ -22,15 +22,15 @@ export default function Roadmap() {
                               <ul className="list-unstyled m-0">
                                  <li className="d-flex align-items-center gap-4">
                                     <img src="/asset/pk2.png" alt="Bats" />{" "}
-                                    First Token launch
+                                    Token launch
                                  </li>
                                  <li className="d-flex align-items-center gap-4">
                                     <img src="/asset/bat.png" alt="Bats" />{" "}
-                                    First community building
+                                    community building
                                  </li>
                                  <li className="d-flex align-items-center gap-4">
-                                    <img src="/asset/pk2.png" alt="Bats" />{" "}
-                                    First 500 holders
+                                    <img src="/asset/pk2.png" alt="Bats" /> 500
+                                    holders
                                  </li>
                               </ul>
                            </div>
@@ -44,15 +44,15 @@ export default function Roadmap() {
                               <ul className="list-unstyled m-0">
                                  <li className="d-flex align-items-center gap-4">
                                     <img src="/asset/pk2.png" alt="Bats" />{" "}
-                                    First Callers from CT / TG
+                                    Callers from CT / TG
                                  </li>
                                  <li className="d-flex align-items-center gap-4">
-                                    <img src="/asset/bat.png" alt="Bats" />{" "}
-                                    First 1k holders
+                                    <img src="/asset/bat.png" alt="Bats" /> 1k
+                                    holders
                                  </li>
                                  <li className="d-flex align-items-center gap-4">
                                     <img src="/asset/pk2.png" alt="Bats" />{" "}
-                                    First dextools trending
+                                    dextools trending
                                  </li>
                               </ul>
                            </div>
@@ -75,35 +75,34 @@ export default function Roadmap() {
                            <div className="list-wrap d-flex">
                               <ul className="list-unstyled m-0">
                                  <li className="d-flex align-items-center gap-4">
-                                    <img src="/asset/pk2.png" alt="Bats" />{" "}
-                                    First hit 10m mc
+                                    <img src="/asset/pk2.png" alt="Bats" /> hit
+                                    10m mc
                                  </li>
                                  <li className="d-flex align-items-center gap-4">
-                                    <img src="/asset/bat.png" alt="Bats" />{" "}
-                                    First 10k holders
+                                    <img src="/asset/bat.png" alt="Bats" /> 10k
+                                    holders
                                  </li>
                                  <li className="d-flex align-items-center gap-4">
                                     <img src="/asset/pk2.png" alt="Bats" />{" "}
-                                    First party in town
+                                    party in town
                                  </li>
                               </ul>
                            </div>
                         </div>
                      </div>
 
-
-                    {/* left */}
-                    <div className="col-md-6 d-flex r-box l my-4 flex-wrap  bg-dar">
+                     {/* left */}
+                     <div className="col-md-6 d-flex r-box l my-4 flex-wrap  bg-dar">
                         <div className="col-lg-6">
                            <div className="list-wrap d-flex">
                               <ul className="list-unstyled m-0">
                                  <li className="d-flex align-items-center gap-4">
-                                    <img src="/asset/pk2.png" alt="Bats" />{" "}
-                                    First hit 100m
+                                    <img src="/asset/pk2.png" alt="Bats" /> hit
+                                    100m
                                  </li>
                                  <li className="d-flex align-items-center gap-4">
                                     <img src="/asset/bat.png" alt="Bats" />{" "}
-                                    First yatch party
+                                    yatch party
                                  </li>
                               </ul>
                            </div>

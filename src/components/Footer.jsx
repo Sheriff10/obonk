@@ -23,10 +23,10 @@ export default function Footer() {
                <span>
                   Powered by <span className="text-halo">$KAZUWEEN</span>
                </span>
-               <span>© Company, Rights Reserved</span>
+               <span> Company Rights Reserved</span>
                <span>
-                  Designed and developed by{" "}
-                  <span className="text-halo">Sheezey</span>
+               ©
+                  <span className="text-halo">2023</span>
                </span>
             </div>
          </div>
