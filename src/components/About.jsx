@@ -54,7 +54,7 @@ export default function About() {
                            ABOUT <br /> K AZUWEEN
                         </span>{" "}
                         <br />
-                        <span>
+                        <span className="text-light">
                            Kazukween is a mysterious and enigmatic Halloween
                            character, known for their spine-chilling presence
                            and eerie charm. With a striking appearance that
@@ -67,7 +67,7 @@ export default function About() {
                            face concealed behind a haunting mask.
                         </span>{" "}
                         <br /> <br />
-                        <span>
+                        <span className="text-light">
                            Kazukween is a playful and mischievous character,
                            embodying the spirit of Halloween with a penchant for
                            lighthearted pranks and spectral tricks. Despite

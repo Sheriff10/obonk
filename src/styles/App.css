@@ -119,13 +119,13 @@ body {
       ),
       radial-gradient(
          circle at 50.416666666666664% 51.66666666666667%,
-         #fff 0,
+         #131313 0,
          100%,
          transparent 100%
       ),
       radial-gradient(
          circle at 48.9013671875% 49.521484375%,
-         #fff 0,
+         #131313 0,
          100%,
          hsla(0, 0%, 100%, 0) 100%
       );
@@ -163,7 +163,7 @@ body {
       ),
       radial-gradient(
          circle at 50.416666666666664% 51.66666666666667%,
-         #fff 0,
+         #131313 0,
          100%,
          transparent 100%
       ),
@@ -266,13 +266,13 @@ body {
       ),
       radial-gradient(
          circle at 50.416666666666664% 51.66666666666667%,
-         #fff 0,
+         #131313 0,
          100%,
          transparent 100%
       ),
       radial-gradient(
          circle at 48.9013671875% 49.521484375%,
-         #fff 0,
+         #131313 0,
          100%,
          hsla(0, 0%, 100%, 0) 100%
       );
@@ -316,7 +316,7 @@ body {
 /* Roadmap */
 .roadmap {
    background: dark;
-   background: #fff;
+   background: #131313;
 }
 .roadmap h1 {
    font-family: "casper", serif;

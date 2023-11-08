@@ -38,7 +38,7 @@ function CardItem({ title, text }) {
         </div>
         <div className="text-wrap">
           <span className="h text-halo fw-bold">{title}</span> <br />
-          <span className="text-dark">{text}</span>
+          <span className="text-light">{text}</span>
         </div>
       </div>
     </div>

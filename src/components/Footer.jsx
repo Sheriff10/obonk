@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
    return (
-      <div className="footer bg-white">
+      <div className="footer">
          <div className="bg-wrap">
             <div className="spacing"></div>
          </div>
@@ -18,7 +18,7 @@ export default function Footer() {
                </span>
             </div>
          </div>
-         <div className="box text-dark fs-5">
+         <div className="box fs-5">
             <div className="container d-flex flex-wrap gap-3 justify-content-between align-items-center py-5">
                <span>
                   Powered by <span className="text-halo">$KAZUWEEN</span>
