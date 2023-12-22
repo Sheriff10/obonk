@@ -37,14 +37,14 @@ export default function Header() {
             </div>
 
             <div className="logo-con">
-               <img src="/asset/logo.png" alt="Kazuki" />
+               <img src="/obonk/logo.png" alt="OBONK" />
             </div>
 
             <div className="menu-con">
                <div className="wrap">
                   <div className="img-wrap mb-5 d-flex justify-content-between align-items-center">
                      <img
-                        src="/asset/logo.png"
+                        src="/obonk/logo.png"
                         alt="Kazuki"
                         className="sm-logo"
                      />

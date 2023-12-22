@@ -383,7 +383,7 @@ body {
    letter-spacing: 5px;
 }
 .mb.nav .logo-con img {
-   width: 200px;
+   width: 100px;
 }
 .mb.nav .menu-con {
    position: fixed;
@@ -418,7 +418,7 @@ body {
    font-family: "casper", serif;
 }
 .mb.nav .menu-con .wrap {
-   background: url("/public/asset/web2.png") no-repeat;
+   /* background: url("/public/asset/web2.png") no-repeat; */
    background-size: contain;
    width: 80%;
 }
