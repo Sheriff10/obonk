@@ -20,7 +20,7 @@ body {
    z-index: 12;
 }
 .nav img {
-   width: 200px;
+   width: 100px;
 }
 .nav span a {
    text-decoration: none;
@@ -51,11 +51,10 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   background: url("/public/asset/intro-gif.gif");
-   background-size: cover;
+   background: url('/public/obonk/obonk.png');
 }
 .intro .bg-wrap {
-   background: #000000a7;
+   /* background: url('/public/obonk/obonk.png'); */
    min-height: 100vh;
    padding: 20px 0px;
    display: flex;
@@ -110,12 +109,12 @@ body {
 }
 /* About */
 .about {
-   background: #131313;
+   /* background: #131313;
    background: radial-gradient(
          circle at 3.3333333333333335% 52.5%,
          #f2731a 0,
          13%,
-         rgba(10, 194, 143, 0) 26%
+         #fff
       ),
       radial-gradient(
          circle at 50.416666666666664% 51.66666666666667%,
@@ -128,19 +127,21 @@ body {
          #131313 0,
          100%,
          hsla(0, 0%, 100%, 0) 100%
-      );
+      ); */
+      background: url('/public/obonk/bonkBg.png') no-repeat;
+      background-size: cover;
 }
 .about .h {
    font-size: 75px;
    font-family: "casper", sans-serif;
    color: #f2731a;
    backdrop-filter: blur(6px);
-   background: url("/public/asset/web.png") no-repeat;
+   /* background: url("/public/asset/web.png") no-repeat; */
    background-size: contain;
    background-position: center;
 }
 .about .glass {
-   background: #2d2d2d5c;
+   background: orange;
    height: 100%;
    padding: 30px 15px;
    border-radius: 20px;
@@ -197,7 +198,7 @@ body {
    font-family: "rikky", serif;
 }
 .card-con .bg-wrap {
-   background: url("/public/asset/web2.png") no-repeat;
+   /* background: url("/public/asset/web2.png") no-repeat;  */
    background-size: contain;
 }
 .card-con .hl {
@@ -215,7 +216,7 @@ body {
 
 /* How to buy */
 .buy {
-   background: url("/public/asset/Halloween5.png") no-repeat fixed;
+   background: url("/public/obonk/obonkBg2.jpeg") no-repeat fixed;
    background-size: cover;
 }
 .buy .bg-wrap {
@@ -289,7 +290,7 @@ body {
    color: #c5c5c5;
 }
 .footer .bg-wrap {
-   background: url("/public/asset/Halloween3\ \(1\).png") no-repeat;
+   background: url("/public/obonk/obonk.png") no-repeat;
    background-size: cover;
    background-position: center center;
    min-height: 50vh;

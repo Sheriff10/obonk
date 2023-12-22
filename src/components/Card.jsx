@@ -34,7 +34,7 @@ function CardItem({ title, text }) {
     <div className={`card ${isCardIntersecting ? "slide-in" : ""}`} ref={cardRef}>
       <div className="wrap">
         <div className="img-con">
-          <img src="/asset/pumpkin.png" alt="pumpkin" />
+          <img src="/obonk/logo.png" alt="pumpkin" />
         </div>
         <div className="text-wrap">
           <span className="h text-halo fw-bold">{title}</span> <br />
@@ -49,15 +49,15 @@ export default function Card() {
   const cardArray = [
     {
       title: "Backed Community",
-      text: "$KAZUKWEEN has strong community backing, Everything done is for the community by the community",
+      text: "$OBK has strong community backing, Everything done is for the community by the community",
     },
     {
       title: "Based Dev",
-      text: "Developers of $KAZUKWEEN are experienced in devving and an organized team.",
+      text: "Developers of $OBK are experienced in devving and an organized team.",
     },
     {
       title: "Locked Liquidity",
-      text: "$KAZUKWEEN liquidity is locked, which enables safe trading",
+      text: "$OBK liquidity is locked, which enables safe trading",
     },
   ];
 

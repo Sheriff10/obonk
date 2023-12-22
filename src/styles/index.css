@@ -1,13 +1,13 @@
 @font-face {
    font-family: "casper";
-   src: url("/public/asset/Casper.ttf") format("truetype");
+   src: url("/public/fonts/ttp.ttf") format("truetype");
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
    font-family: "rikky";
-   src: url("/public/asset/RIKY2vamp.ttf") format("truetype");
+   src: url("/public/fonts/Candyful.ttf") format("truetype");
    font-weight: normal;
    font-style: normal;
 }

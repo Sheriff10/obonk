@@ -17,7 +17,7 @@ export default function Header() {
                </span>
             </div>
             <div className="img-wrap col-4 text-center">
-               <img src="/asset/logo.png" alt="Kazuki" />
+               <img src="/obonk/logo.png" width={30} alt="Kazuki" />
             </div>
             <div className="text-wrap col-4 d-flex align-items-center justify-content-between pe-5">
                <span>

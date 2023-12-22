@@ -51,34 +51,13 @@ export default function About() {
                      >
                         <span className="h">
                            {" "}
-                           ABOUT <br /> K AZUWEEN
+                           ABOUT OBONK ($OBK)
                         </span>{" "}
                         <br />
-                        <span className="text-light">
-                           Kazukween is a mysterious and enigmatic Halloween
-                           character, known for their spine-chilling presence
-                           and eerie charm. With a striking appearance that
-                           combines elegance with fright, Kazukween boasts
-                           ghostly white skin, midnight-black cascading hair,
-                           and piercing electric blue eyes that seem to radiate
-                           an otherworldly light. They are always seen donning
-                           dark, flowing robes adorned with silver-threaded
-                           spiderwebs and hauntingly beautiful embroidery, their
-                           face concealed behind a haunting mask.
+                        <span className="text-light fs-1">
+                           Here's a F**kin intro about OBONK. <br /> IT'S A FUCKIN gEM DiCkHEad
                         </span>{" "}
                         <br /> <br />
-                        <span className="text-light">
-                           Kazukween is a playful and mischievous character,
-                           embodying the spirit of Halloween with a penchant for
-                           lighthearted pranks and spectral tricks. Despite
-                           their haunting presence, they are not malevolent but
-                           rather aim to spread the joy of the season with their
-                           supernatural abilities, which include levitation and
-                           the creation of ghostly illusions. This enigmatic
-                           character adds an extra layer of mystique to the
-                           spookiest time of the year, leaving a lasting
-                           impression on all who encounter them.
-                        </span>
                      </div>
                   </div>
                   <div className={`col-lg-6 zuki mb-3 `}>
@@ -88,11 +67,11 @@ export default function About() {
                         }`}
                         ref={imgWrapRef}
                      >
-                        <img
+                        {/* <img
                            src="/asset/kuzuki.png"
                            alt="Kuzuki"
                            className="img-fluid"
-                        />
+                        /> */}
                      </div>
                   </div>
                </div>
